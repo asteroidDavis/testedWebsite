@@ -1,0 +1,56 @@
+html, body {
+	height: 100%;
+}
+/*list containing navigation links*/
+.navbar-nav {
+	
+}
+/*Home Picture in Navigation bar */
+.navbar-nav li a img {
+    height: 3em;
+		padding: 0;
+		style.border: 0;
+		width: 3em;
+}
+/*search icon in nav bar*/
+.search-toggle {
+	background-color:inherit;
+	color:floralwhite;
+	font-size: 2em;
+}
+
+/*div for topic nav bar*/
+.navbar-left {
+	margin-top: 5em;
+	position: absolute;
+}
+
+/*list in topic nav bar*/
+.navbar-collapse ul {
+	list-style-type:none; 
+	
+}
+
+.footer {
+    position:absolute;
+    margin-bottom: 3em;
+}
+
+/*button for Contact info*/
+div.btn-group {
+	bottom: 0;
+	left: 50%;
+	opacity: 0.6;
+	position: fixed;
+
+}
+div.btn-group:hover {
+	opacity: 1;	
+}
+/*Contact Info Items*/
+.dropdown-menu li {
+	align-items: center;
+	list-style-type:none; 
+	padding-left:0.5em; 
+	padding-right:0.5em;	
+}
